@@ -1,0 +1,15 @@
+$background-color: #e1e1e1;
+$text-color: #515151;
+$text-color2: #FFC53d;
+$text-black: #222222;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all 0.25s ease-in-out;
+}
+

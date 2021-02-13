@@ -1,0 +1,75 @@
+.about-me {
+  width: 65vw;
+  height: 430px;
+  background-color: #fafaff;
+  position: absolute;
+
+  h1 {
+    font-size: 32px;
+    color: $text-black;
+    font-weight: 700;
+    margin-left: 15vw;
+    margin-top: 18px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  &-card {
+    width: 90vw;
+    height: 280px;
+    margin-left: 6vw;
+    margin-top: 74px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px;
+    position: absolute;
+    display: flex;
+    font-family: Raleway;
+    font-size: 18px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    .image {
+
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 50%;
+      box-shadow: 6px 6px 20px;
+      margin-top: -2rem;
+
+      img {
+        width: auto;
+        height: 100px;
+        margin-left: -25%;
+      }
+    }
+
+    div {
+      margin-top: 3rem;
+      margin-left: 2rem;
+      margin-bottom: 3rem;
+
+      &.info {
+        font-weight: 700;
+        color: $text-black;
+        letter-spacing: 0.02rem;
+        line-height: 2.45rem;
+        margin-left: 1rem;
+
+        span {
+          color: $text-color2;
+          margin-left: 1rem;
+        }
+      }
+
+      &.info2 {
+        color: $text-black;
+        line-height: 2rem;
+        border-left: $text-color2 4px dashed;
+        padding-left: 2rem;
+        width: 55%;
+        margin-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import 'menu';
+@import 'home';
+@import 'social-icons';
+@import 'contact-me';
+@import 'about-me';
+
+body {
+  width: auto;
+  color: $background-color;
+  font-family: Raleway;
+}
+
+
